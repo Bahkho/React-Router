@@ -11,10 +11,7 @@ export default function CareersDetails() {
       <p>Location: {career.location}</p>
       <div className="details">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
-          quidem optio dicta sunt explicabo, pariatur sit magni blanditiis fuga
-          sed corporis. Modi voluptatem, similique quae doloribus quasi
-          praesentium eaque a!
+         Career ID is {id}
         </p>
       </div>
     </div>
