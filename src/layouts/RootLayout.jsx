@@ -17,7 +17,7 @@ const RootLayout = () => {
           <h1 className="text-3xl font-bold text-[#bc4123]">
             <Link to="/">Bahkho</Link>
           </h1>
-          <div className="hidden md:flex">
+          <div className="hidden md:flex gap-6">
             <NavLink to="/" className="p-1.5 rounded">
               Home
             </NavLink>
@@ -84,7 +84,7 @@ const RootLayout = () => {
       <main className="max-w-[1240px] mx-auto px-5">
         <Outlet />
       </main>
-      <footer className="bg-gray-600">
+      <footer className="bg-[#00000033]">
         <Footer />
       </footer>
     </div>
