@@ -33,9 +33,9 @@ const RootLayout = () => {
           </div>
           <div onClick={handleMenu} className="md:hidden">
             {isMenuOpen ? (
-              <AiOutlineClose size={20} />
+              <AiOutlineClose size={30} />
             ) : (
-              <AiOutlineMenu size={20} />
+              <AiOutlineMenu size={30} />
             )}
           </div>
         </nav>
