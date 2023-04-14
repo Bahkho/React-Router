@@ -15,7 +15,7 @@ export default function Contact() {
           <span>Your message:</span>
           <textarea name="message" required></textarea>
         </label>
-        <button>Submit</button>
+        <button className="my-4">Submit</button>
         {data && data.error && <p>{data.error}</p>}
       </Form>
     </div>

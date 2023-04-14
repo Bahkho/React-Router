@@ -48,7 +48,9 @@ const RootLayout = () => {
           }
         >
           <h1 className="w-full text-3xl font-bold text-[#bc4123] m-8">
-            <Link to="/">Bahkho</Link>
+            <Link to="/" onClick={handleMenu}>
+              Bahkho
+            </Link>
           </h1>
           <div className="p-4 flex flex-col uppercase">
             <NavLink
