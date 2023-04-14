@@ -10,7 +10,6 @@
 }
 body {
   margin: 0;
-  padding: 20px;
   font-family: "Poppins";
   background: var(--secondary);
 }
@@ -36,10 +35,10 @@ header nav a.active {
 }
 
 /* page content */
-main {
+/* main {
   max-width: 1200px;
   margin: 40px auto;
-}
+} */
 
 /* help layout */
 .help-layout nav {

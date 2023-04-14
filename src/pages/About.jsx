@@ -29,7 +29,49 @@ const About = () => {
         quos accusantium perferendis excepturi unde ullam magnam voluptates non
         iure?
       </p>
-      <button onClick={() => setUser(null)}>Logout</button>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
+        delectus cumque vitae nemo sit dolore, ipsam saepe dolor corrupti amet
+        quos accusantium perferendis excepturi unde ullam magnam voluptates non
+        iure?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
+        delectus cumque vitae nemo sit dolore, ipsam saepe dolor corrupti amet
+        quos accusantium perferendis excepturi unde ullam magnam voluptates non
+        iure?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
+        delectus cumque vitae nemo sit dolore, ipsam saepe dolor corrupti amet
+        quos accusantium perferendis excepturi unde ullam magnam voluptates non
+        iure?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
+        delectus cumque vitae nemo sit dolore, ipsam saepe dolor corrupti amet
+        quos accusantium perferendis excepturi unde ullam magnam voluptates non
+        iure?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
+        delectus cumque vitae nemo sit dolore, ipsam saepe dolor corrupti amet
+        quos accusantium perferendis excepturi unde ullam magnam voluptates non
+        iure?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
+        delectus cumque vitae nemo sit dolore, ipsam saepe dolor corrupti amet
+        quos accusantium perferendis excepturi unde ullam magnam voluptates non
+        iure?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
+        delectus cumque vitae nemo sit dolore, ipsam saepe dolor corrupti amet
+        quos accusantium perferendis excepturi unde ullam magnam voluptates non
+        iure?
+      </p>
+      <button onClick={() => setUser(null)} className="my-4">Logout</button>
     </div>
   );
 };
