@@ -11,9 +11,7 @@ const Footer = () => {
   return (
     <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300">
       <div className="">
-        <h1 className="w-full text-3xl font-bold text-[#bc4123]">
-          Bahkho
-        </h1>
+        <h1 className="w-full text-3xl font-bold text-[#bc4123]">Bahkho</h1>
         <p className="py-4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
           commodi maxime quae quod similique natus itaque, saepe dolorum ratione
@@ -23,7 +21,9 @@ const Footer = () => {
           <FaFacebookSquare size={30} />
           <FaInstagram size={30} />
           <FaTwitterSquare size={30} />
-          <FaGithubSquare size={30} />
+          <a href="https://github.com/Bahkho" target="_blank">
+            <FaGithubSquare size={30} />
+          </a>
           <FaDribbbleSquare size={30} />
         </div>
       </div>
