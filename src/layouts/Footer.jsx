@@ -21,7 +21,11 @@ const Footer = () => {
           <FaFacebookSquare size={30} />
           <FaInstagram size={30} />
           <FaTwitterSquare size={30} />
-          <a href="https://github.com/Bahkho" target="_blank">
+          <a
+            href="https://github.com/Bahkho"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaGithubSquare size={30} />
           </a>
           <FaDribbbleSquare size={30} />
