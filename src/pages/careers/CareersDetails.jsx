@@ -1,30 +1,47 @@
-import { useLoaderData, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
+import { getDocs, collection } from "firebase/firestore";
+import { database } from "./firebase";
+import { useState, useEffect } from "react";
 
 export default function CareersDetails() {
   const { id } = useParams();
-  const career = useLoaderData();
+  // const career = useLoaderData();
+  // const seriesCollectionRef = collection(database, "careers");
+  const careerDocRef = collection(database, "careers");
+
+  const [job, setJob] = useState([]);
+
+  //loader function
+  const careerDetailsLoader = async (id) => {
+    try {
+      const data = await getDocs(careerDocRef);
+      const filteredData = data.docs.map((doc) => ({
+        ...doc.data(),
+        id: doc.id,
+      }));
+
+      for (const i of filteredData) {
+        if (i.id === id) {
+          setJob(i);
+        }
+      }
+    } catch (err) {
+      console.error(err);
+    }
+  };
+  useEffect(() => {
+    careerDetailsLoader(id);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <div className="career-details">
-      <h2 className="text-2xl font-bold">Career Details for {career.title}</h2>
-      <p>Starting Salary: ${career.salary.toLocaleString()}</p>
-      <p>Location: {career.location}</p>
+      <h2 className="text-2xl font-bold">Career Details for {job.title}</h2>
+      <p>Starting Salary: ${job.salary}</p>
+      <p>Location: {job.location}</p>
       <div className="details">
-        <p>
-         Career ID is {id}
-        </p>
+        <p>Career ID is {job.id}</p>
       </div>
     </div>
   );
 }
-
-//loader function
-export const careerDetailsLoader = async ({ params }) => {
-  const { id } = params;
-  const response = await fetch(`http://localhost:4000/careers/${id}`);
-  if (!response.ok) {
-    throw Error("Failed to fetch career details");
-  }
-  const data = await response.json();
-  return data;
-};
