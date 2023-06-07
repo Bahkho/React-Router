@@ -12,66 +12,46 @@ const About = () => {
     <div className="about">
       <h2 className="text-2xl font-bold">About Us</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
-        delectus cumque vitae nemo sit dolore, ipsam saepe dolor corrupti amet
-        quos accusantium perferendis excepturi unde ullam magnam voluptates non
-        iure?
+        With years of experience in the recruitment industry, I have a deep
+        understanding of what employers are looking for in candidates.
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
-        delectus cumque vitae nemo sit dolore, ipsam saepe dolor corrupti amet
-        quos accusantium perferendis excepturi unde ullam magnam voluptates non
-        iure?
+        My mission is to empower job seekers like you with the tools, resources,
+        and guidance needed to stand out from the competition and land the
+        perfect job.
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
-        delectus cumque vitae nemo sit dolore, ipsam saepe dolor corrupti amet
-        quos accusantium perferendis excepturi unde ullam magnam voluptates non
-        iure?
+        Whether you're a recent graduate, a seasoned professional, or someone
+        looking to make a career transition, I'm dedicated to providing tailored
+        advice and strategies to help you achieve your goals.
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
-        delectus cumque vitae nemo sit dolore, ipsam saepe dolor corrupti amet
-        quos accusantium perferendis excepturi unde ullam magnam voluptates non
-        iure?
+        I believe that finding a job should be a fulfilling and empowering
+        process, and I'm committed to making that journey as smooth and
+        successful as possible for you.
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
-        delectus cumque vitae nemo sit dolore, ipsam saepe dolor corrupti amet
-        quos accusantium perferendis excepturi unde ullam magnam voluptates non
-        iure?
+        Through personalized coaching, resume optimization, interview
+        preparation, and job market insights, I aim to equip you with the skills
+        and confidence to excel in your job search.
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
-        delectus cumque vitae nemo sit dolore, ipsam saepe dolor corrupti amet
-        quos accusantium perferendis excepturi unde ullam magnam voluptates non
-        iure?
+        I understand that each individual's career path is unique, and I'm here
+        to offer personalized guidance that takes into account your skills,
+        interests, and aspirations.
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
-        delectus cumque vitae nemo sit dolore, ipsam saepe dolor corrupti amet
-        quos accusantium perferendis excepturi unde ullam magnam voluptates non
-        iure?
+        Join me on this exciting journey of discovering new opportunities,
+        unlocking your potential, and finding the job that aligns with your
+        passions and values.
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
-        delectus cumque vitae nemo sit dolore, ipsam saepe dolor corrupti amet
-        quos accusantium perferendis excepturi unde ullam magnam voluptates non
-        iure?
+        Let's work together to turn your job search into a success story!
+        Contact me today to get started.
       </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
-        delectus cumque vitae nemo sit dolore, ipsam saepe dolor corrupti amet
-        quos accusantium perferendis excepturi unde ullam magnam voluptates non
-        iure?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
-        delectus cumque vitae nemo sit dolore, ipsam saepe dolor corrupti amet
-        quos accusantium perferendis excepturi unde ullam magnam voluptates non
-        iure?
-      </p>
-      <button onClick={() => setUser(null)} className="my-4">Logout</button>
+      <button onClick={() => setUser(null)} className="my-4">
+        Logout
+      </button>
     </div>
   );
 };

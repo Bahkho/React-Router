@@ -1,3 +1,4 @@
-# Summary of lessons learned from the Job-aRouter project
-1. Breadcrumb navigation
-2. layout
+# Task to complete
+
+- Hide api keys from public repos
+- Input meaningful text in each pages
